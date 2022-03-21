@@ -1,8 +1,11 @@
-num = int(input())
+case = int(input())
 
-for i in range(num):
-    cnt, string = map(str, input().split())
-    for j in range(int(cnt)):
-        for k in string:
-            print(k, sep='')
-print('\n')
+sol = ''
+
+for i in range(case):
+    num, string = map(str, input().split())
+    for j in string:
+        for k in range(int(num)):
+            sol += j
+    print(sol)
+    sol = ''
