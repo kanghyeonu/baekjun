@@ -13,5 +13,4 @@ else:
             if number % i == 0:
                 print(i)
                 number = number // i
-                break
 
