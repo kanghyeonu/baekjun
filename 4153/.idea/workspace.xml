@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1588ac8-c13f-4443-8c15-2e9b8c608069" name="Changes" comment="" />
+    <list default="true" id="a9755626-9d94-42b9-b693-c8435c7b9f91" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="27Bdovcms0ogbTzC06zBkQwkC2I" />
+  <component name="ProjectId" id="27JjEl7UWin67MozdSZry1yHK2R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +22,7 @@
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="3009" />
+      <module name="4153" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -49,11 +46,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c1588ac8-c13f-4443-8c15-2e9b8c608069" name="Changes" comment="" />
-      <created>1648797591941</created>
+      <changelist id="a9755626-9d94-42b9-b693-c8435c7b9f91" name="Changes" comment="" />
+      <created>1649044974176</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648797591941</updated>
+      <updated>1649044974176</updated>
     </task>
     <servers />
   </component>
