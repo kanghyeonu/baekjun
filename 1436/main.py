@@ -1,17 +1,11 @@
 num = int(input())
 
-string = '666'
+cnt = 0
+doom = 665
 
-lst = [666]
+while cnt != num:
+    doom += 1
+    if '666' in str(doom):
+        cnt += 1
 
-for i in range(1, 2500):
-    for j in range(len(str(i))+1):
-        doom = str(i)[:j] + string + str(i)[j:]
-        if int(doom) not in lst:
-            print(doom)
-            lst.append(int(doom))
-
-lst.sort()
-print(len(lst))
-print(lst[num-1])
-
+print(doom)
