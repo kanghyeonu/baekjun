@@ -2,15 +2,15 @@ N, M = map(int, input().split())
 
 visited = []
 
-def dfs():
-    if len(visited)==M:
+def dfs(start):
+    if len(visited) == M:
         print(' '.join(map(str, visited)))
         return
 
-    for i in range(1, N+1):
+    for i in range(start, N + 1):
         if i not in visited:
             visited.append(i)
-            dfs()
+            dfs(i+1)
             visited.pop()
 
-dfs()
+dfs(1)
