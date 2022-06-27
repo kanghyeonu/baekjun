@@ -36,12 +36,12 @@ def binSearch(n):
 
 
 for i in range(1, n+1):
-    idx = binSearch(lst[i])
-    if table_lst[len(table_lst) - 1] < lst[i]:
+    if table_lst[-1] < lst[i]:
         table_lst.append(lst[i])
         table_dp.append(max(table_dp)+1)
         dp[i] =  max(table_dp)
     else:
+        idx = binSearch(lst[i])
         table_lst[idx] = lst[i]
         dp[i] = table_dp[idx]
 
