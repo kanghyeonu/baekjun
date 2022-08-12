@@ -17,3 +17,4 @@ for _ in range(q):
         else:
             dp.append(dp[i-1])
     print(dp[e+1] - dp[s])
+
