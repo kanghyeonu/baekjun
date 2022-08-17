@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39369020-cdd4-4451-b0ea-5a1174b524cf" name="Changes" comment="" />
+    <list default="true" id="e34a5d5b-9456-405d-a157-2c6b4190da56" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2CbZ3XI9gWSLQDzxFa7VS1qHUEo" />
+  <component name="ProjectId" id="2DShr32DSw3EzmtrhkQkPA1z5LE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +25,7 @@
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="16139" />
+      <module name="10986" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -52,11 +49,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39369020-cdd4-4451-b0ea-5a1174b524cf" name="Changes" comment="" />
-      <created>1659073045523</created>
+      <changelist id="e34a5d5b-9456-405d-a157-2c6b4190da56" name="Changes" comment="" />
+      <created>1660698588623</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659073045523</updated>
+      <updated>1660698588623</updated>
     </task>
     <servers />
   </component>
