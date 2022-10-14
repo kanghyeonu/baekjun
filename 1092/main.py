@@ -6,9 +6,16 @@ weight = list(map(int, input().split()))
 crane.sort(reverse=True)
 weight.sort(reverse=True)
 
-for i in range(M):
-    for j in range(N):
-        if crane[j] >= weight[i]:
-            break
-        elif j == N-1:
-            
+cnt = 0
+if crane[0] < weight[0]:
+    print('-1')
+
+else:
+    while weight:
+        cnt += 1
+        for i in range(N):
+            for j in range(len(weight)):
+                if crane[i] >= weight[j]:
+                    weight.pop(j)
+                    break
+    print(cnt)
