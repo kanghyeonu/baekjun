@@ -1,5 +1,4 @@
 import sys
-
 sys.setrecursionlimit(10000000)
 n, m = map(int, sys.stdin.readline().split())
 
@@ -9,36 +8,37 @@ for _ in range(n):
 
 cnt = 0
 max_val = 0
-temp_size = 0
-def sol(row):
-    global max_val, cnt, temp_size
-    if row == n:
-        return
-
-    if 1 in paper[row]:
-        cnt += 1
-        col = paper[row].index(1)
-        temp_size = 0
-        max_val = max(max_val, get_area(row, col))
-        sol(row)
-    else:
-        sol(row + 1)
+def sol():
+    global max_val, cnt
+    for i in range(n):
+        for j in range(m):
+            if board[i][j] == 0:
+                continue
+            cnt += 1
+            max_val = max(max_val, get_area(i, j))
 
 def get_area(row, col):
-    global n, m, temp_size
-    temp_size += 1
-    paper[row][col] = 0
-    if row < n-1 and paper[row + 1][col] == 1:
-        get_area(row + 1, col)
-    if col < m-1 and paper[row][col + 1] == 1:
-        get_area(row, col + 1)
-    if row > 0 and paper[row - 1][col] == 1:
-        get_area(row - 1, col)
-    if col > 0 and paper[row][col - 1] == 1:
-        get_area(row, col - 1)
-    else:
-        return temp_size
+    global n, m
+    size = 0
+    q = [(row, col)]
+    while q:
+        tmp_q = []
+        for r, c in q:
+            if paper[r][c] == 0:
+                continue
+            paper[r][c] = 0
+            size += 1
+            if r < n - 1 and paper[r + 1][c] == 1:
+                tmp_q.append((r + 1, c))
+            if c < m - 1 and paper[r][c + 1] == 1:
+                tmp_q.append((r, c + 1))
+            if r > 0 and paper[r - 1][c] == 1:
+                tmp_q.append((r - 1, c))
+            if c > 0 and paper[r][c - 1] == 1:
+                tmp_q.append((r, c - 1))
+        q = tmp_q
 
+    return size
 
 sol(0)
 print(cnt)
