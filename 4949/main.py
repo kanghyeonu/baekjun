@@ -2,8 +2,8 @@ from collections import deque
 import sys
 
 while True:
-    string = sys.stdin.readline().strip()
-    if string == '.':
+    string = sys.stdin.readline()
+    if string[0] == '.':
         break
     q = deque()
     for char in string:
@@ -23,5 +23,5 @@ while True:
                 break
     if q:
         print('no')
-    else:1
+    else:
         print('yes')
